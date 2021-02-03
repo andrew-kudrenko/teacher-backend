@@ -1,5 +1,9 @@
 {
   "name": "backend",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "engineStrict": true,
   "version": "1.0.0",
   "main": "dist/app.js",
   "license": "MIT",
