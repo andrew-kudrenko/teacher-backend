@@ -2,8 +2,8 @@
   "name": "backend",
   "engines": {
     "yarn": "1.x",
-    "node": ">=10.0.0",
-    "npm": ">=6.0.0"
+    "node": "14.x",
+    "npm": "6.x"
   },
   "engineStrict": true,
   "version": "1.0.0",
