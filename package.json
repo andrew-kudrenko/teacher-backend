@@ -5,13 +5,11 @@
     "node": "14.x",
     "npm": "6.x"
   },
-  "engineStrict": true,
   "version": "1.0.0",
   "main": "dist/app.js",
   "license": "MIT",
-  "private": true,
   "scripts": {
-    "start": "node --inspect=5858 -r ts-node/register ./src/app.ts",
+    "start": "node ./dist/app.js",
     "start:dev": "nodemon",
     "build": "tsc"
   },
